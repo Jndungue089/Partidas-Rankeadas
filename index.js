@@ -12,15 +12,15 @@ function calcularRanking(numVitorias, numDerrotas){
         console.log("Ferro");
     } else if (resultado >10 && resultado <= 20){
         console.log("Bronze");
-    } else if (20 < resultado <=50){
+    } else if (20 < resultado && resultado <=50){
         console.log("Prata");
-    } else if (50 < resultado <= 80){
+    } else if (50 < resultado && resultado <= 80){
         console.log("Ouro");
-    } else if (80 < resultado <= 90) {
+    } else if (80 < resultado && resultado <= 90) {
         console.log("Diamante");
-    } else if (90< resultado <= 100){
+    } else if (90< resultado && resultado <= 100){
         console.log("Lendário");
-    } else if (resultado >100){
+    } else if (resultado && resultado >100){
         console.log("Imortal");
     }
 }
